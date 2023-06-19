@@ -1,0 +1,21 @@
+.tweetsList {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.TweetsWrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px
+}
+
+.tweetsItemWrap {
+    overflow: hidden;
+    border-radius: 20px;
+
+    box-shadow: -2.58px 6.87px 20.622px rgba(0, 0, 0, 0.23);
+}
+

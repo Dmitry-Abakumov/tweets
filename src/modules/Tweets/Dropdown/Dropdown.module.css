@@ -1,0 +1,59 @@
+.disabled {
+    display: none;
+}
+
+.radioBtn {
+    display: none;
+}
+
+.label {
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.optionsWrap {
+    position: absolute;
+    top: 38px;
+    left: 0px;
+    z-index: 999;
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    width: 300px;
+    margin-top: 15px;
+    padding: 10px;
+
+    color: #471CA9;
+    background-color: #5cd3a8;
+
+    border: 1px solid #471CA9;
+    border-radius: 10px;
+}
+
+.dropdownWrap {
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 300px;
+    height: 40px;
+
+    font-size: 20px;
+    background-color: #5cd3a8;
+    color: #471CA9;
+    border: 1px solid #471CA9;
+    border-radius: 10px;
+
+    cursor: pointer;
+}
+
+.checkedOption {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}

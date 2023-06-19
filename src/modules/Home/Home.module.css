@@ -1,0 +1,11 @@
+.homeWrap {
+    padding: 300px 0px;
+    background-size: cover;
+    background-image: linear-gradient(rgba(17, 17, 20, 0.4), rgba(47, 48, 58, 0.4)), url(../../shared/images/home-bg-img.jpg);
+    background-repeat: no-repeat;
+}
+
+.title {
+    color: #fff;
+    font-size: 90px;
+}
