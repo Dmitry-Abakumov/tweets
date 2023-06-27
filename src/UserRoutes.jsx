@@ -1,17 +1,17 @@
-import { Suspense, lazy } from "react";
-import { Route, Routes } from "react-router-dom";
+import { Suspense, lazy } from 'react';
+import { Route, Routes } from 'react-router-dom';
 
-import Spinner from "./shared/components/Spinner/Spinner";
+import Spinner from './shared/components/Spinner/Spinner';
 
-const HomePage = lazy(() => import("./pages/HomePage/HomePage"));
-const TweetsPage = lazy(() => import("./pages/TweetsPage/TweetsPage"));
+const HomePage = lazy(() => import('./pages/HomePage/HomePage'));
+const TweetsPage = lazy(() => import('./pages/TweetsPage/TweetsPage'));
 
 const UserRoutes = () => {
   return (
-    <Suspense fallback={<Spinner width='50' />}>
+    <Suspense fallback={<Spinner width="50" />}>
       <Routes>
-        <Route path='/' element={<HomePage />} />
-        <Route path='/tweets' element={<TweetsPage />} />
+        <Route path="/" element={<HomePage />} />
+        <Route path="/tweets" element={<TweetsPage />} />
       </Routes>
     </Suspense>
   );
