@@ -9,10 +9,10 @@ import './index.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <BrowserRouter basename="/tweets-app">
-    <React.StrictMode>
+  <React.StrictMode>
+    <BrowserRouter basename="/tweets-app">
       <App />
       <Toaster position="top-right" />
-    </React.StrictMode>
-  </BrowserRouter>
+    </BrowserRouter>
+  </React.StrictMode>
 );

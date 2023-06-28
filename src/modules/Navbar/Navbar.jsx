@@ -8,7 +8,7 @@ const Navbar = () => {
       <NavLink className={css.navLink} to="/">
         Home
       </NavLink>
-      <NavLink className={css.navLink} to="tweets">
+      <NavLink className={css.navLink} to="/tweets">
         Tweets
       </NavLink>
     </div>
