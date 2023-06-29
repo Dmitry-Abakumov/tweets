@@ -10,7 +10,7 @@ import './index.css';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <BrowserRouter basename="/tweets">
+    <BrowserRouter basename="/tweets-app">
       <App />
       <Toaster position="top-right" />
     </BrowserRouter>
