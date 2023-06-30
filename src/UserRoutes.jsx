@@ -10,8 +10,8 @@ const UserRoutes = () => {
   return (
     <Suspense fallback={<Spinner width="50" />}>
       <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="tweets" element={<TweetsPage />} />
+        <Route exact path="/" element={<HomePage />} />
+        <Route exact path="/tweets" element={<TweetsPage />} />
       </Routes>
     </Suspense>
   );
