@@ -1,11 +1,11 @@
-Привет. Это веб-приложение - Tweets.
+Hello! It`s web application - Tweets
 
-С помошью него можно:
+With it, you can:
 
-1. Подписаться на пользователя
-2. Отписаться от пользователя
-3. Отфильтровать пользователей по категориям:
+1. Follow a user
+2. Unfollow a user
+3. Filter users by category:
 
-- "все пользователи",
-- "пользователи на которых Вы подписались"
-- "пользователи на которых Вы не подписывались"
+- "All users",
+- "users you have subscribed to"
+- "users you didn't follow"
