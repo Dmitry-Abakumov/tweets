@@ -1,6 +1,7 @@
-  Hello! It`s web application - Tweets. It`s made with React. MockAPI was used as a server.
+Hello! It is web application - Tweets. This was done with React. MockAPI was
+used as a server.
 
-  With it, you can:
+With this, you can:
 
 1. Follow a user
 2. Unfollow a user
