@@ -11,4 +11,4 @@ With this, you can:
 - users you have subscribed to
 - users you didn't follow
 
-Used technologies: React, React hooks, React-router-dom, CSS modules
+Used technologies and libraries: React, React hooks, React-router-dom, axios, CSS modules
