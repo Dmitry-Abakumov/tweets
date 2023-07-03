@@ -1,4 +1,4 @@
-Hello! It is web application - Tweets. This was done with React. MockAPI was
+Hello! It is a web application - Tweets. This was done with React. MockAPI was
 used as a server.
 
 With this, you can:
