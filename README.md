@@ -10,3 +10,5 @@ With this, you can:
 - all users,
 - users you have subscribed to
 - users you didn't follow
+
+Used technologies: React, React hooks, React-router-dom, CSS modules
