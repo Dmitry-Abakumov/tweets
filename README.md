@@ -1,5 +1,5 @@
 Hello! It is a web application - Tweets. This was done with React. MockAPI was
-used as a server.
+used as a server
 
 With this, you can:
 
@@ -12,3 +12,5 @@ With this, you can:
 - users you didn't follow
 
 Used technologies and libraries: React, React hooks, React-router-dom, axios, CSS modules
+
+Link to live page: https://dmitry-abakumov.github.io/tweets/
